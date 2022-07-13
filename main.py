@@ -17,9 +17,9 @@ async  def on_message(message):
 
     if msg == client.user:
           return
-    if message.content.startswith("Migi"):
+    if message.content.startswith("bot"):
         response = chatbot.request(message.content[2:])
         await message.channel.send(response)
 
 
-client.run('OTk2MDc0OTY3NzcyOTc1Mjc3.GJU3ED.SmZy7aNBrlfnHTS0kzuEsZKhQvDsk2zyghahzA')
+client.run('your bot token')
